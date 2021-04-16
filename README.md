@@ -5,6 +5,8 @@ This repository is for lazy developers!
 This will generate contents from markdown file and pre-append it to the beginnig of the markdown file.
 This file takes two commmand line arguments.
 
+## usage
+
 ```
 usage: make_contents_from_md [-h] filename [max_headers]
 
@@ -15,6 +17,13 @@ positional arguments:
 
 optional arguments:
   -h, --help   show this help message and exit
+```
+
+## example
+
+```shell
+./make_contents_from_md mynotes.md
+./make_contents_from_md mynotes.md 3
 ```
 
 ## Release
